@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <style>
+            h1,h2 {color:red;}
+            ol > li {color:blue;}
+            a::before {
+                content: "\21d2 Click here: ";
+                font-weight: bold;
+            }
+            li::selection {
+                color: red;
+                 background-color: yellow;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <h1> Big Headline</h1>
+        <h2>Smaller Headline </h2>
+        <ol>
+            <li>list item one</li>
+            <li>list item two</li>
+            <ul>
+                <li>sublist item one</li>
+                <li>sublist item two</li>
+            </ul>
+            <li>list item three</li>           
+        </ol>
+
+
+
+
+        <a href = "index.html"> Click here!</a>
+        <br/>
+        <a href = "https://google.com"> Google!</a>
+        <br/>
+        <ul>
+            <li><a href="#section1">Section1</a></li>
+        </ul>
+
+    <h2 id = "section1"> Section 1</h2>
+    <p>
+        <table style="color:lightblue; text-align: center; border: solid black 3px; border-collapse:collapse">
+            <tr>
+                <th style ="border: 1px solid black; background-color: black">
+                    Different Kinds of Bread
+                </th>
+            </tr>
+            <tr>
+                <td style ="border: 1px solid black;">Wheat</td>
+            </tr>
+            <tr>
+                <td style ="border: 1px solid black;">White</td>
+            </tr>
+            <tr>
+                <td style ="border: 1px solid black;">Potato</td>
+            </tr>
+        </table>
+    </p>
+    </body>
+</html>
